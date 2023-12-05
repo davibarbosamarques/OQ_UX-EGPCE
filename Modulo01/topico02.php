@@ -86,66 +86,69 @@
               para entregar resultados de forma mais eficiente. A produtividade era o centro da produção
               Fordista e Taylorista, comumente aplicados na época.
             </p>
+            <div class="row">
+              <div class="col-md-6">
+                <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+                <section class="container">
+                  <div class="accordion">
+                    <section id="content">
+                      <div class="caixaprincipal" id="tituloSaibaMais">
+                        <div class="div_teste">
+                          <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
 
-            <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-            <section class="container">
-              <div class="accordion">
-                <section id="content">
-                  <div class="caixaprincipal" id="tituloSaibaMais">
-                    <div class="div_teste">
-                      <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
-
-                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                    </div>
-                  </div> <!--caixa Principal-->
-                  <div class="accordion-content" id="saibamais">
-                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
-                    </p>
-                    <p class="txt-caixasecundaria">
-                      <a href="https://www.significados.com.br/taylorismo-fordismo-e-toyotismo/#:~:text=O%20Taylorismo%20e%20o%20Fordismo,grande%20produtividade%20com%20menor%20custo."
-                        class="aref" target="_blank">O Taylorismo e o Fordismo</a> enfatizaram
-                      os princípios de fabricação. O Taylorismo iniciou a partir do estudo da mão
-                      de obra na produção industrial, organizando o trabalho de modo a obter
-                      grande produtividade com menor custo. O Fordismo manteve o mecanismo de
-                      produção e organização semelhante ao taylorismo, porém adicionou a esteira
-                      rolante, ditando um novo ritmo de trabalho. O filme “Tempos Modernos”, de
-                      Charlie Chaplin representa bem esse estilo, como pode ser visto na
-                      <strong>Figura 14.</strong>
-                    </p><!--caixa secundaria-->
-                  </div>
+                          <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                        </div>
+                      </div> <!--caixa Principal-->
+                      <div class="accordion-content" id="saibamais">
+                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
+                        </p>
+                        <p class="txt-caixasecundaria">
+                          <a href="https://www.significados.com.br/taylorismo-fordismo-e-toyotismo/#:~:text=O%20Taylorismo%20e%20o%20Fordismo,grande%20produtividade%20com%20menor%20custo."
+                            class="aref" target="_blank">O Taylorismo e o Fordismo</a> enfatizaram
+                          os princípios de fabricação. O Taylorismo iniciou a partir do estudo da mão
+                          de obra na produção industrial, organizando o trabalho de modo a obter
+                          grande produtividade com menor custo. O Fordismo manteve o mecanismo de
+                          produção e organização semelhante ao taylorismo, porém adicionou a esteira
+                          rolante, ditando um novo ritmo de trabalho. O filme “Tempos Modernos”, de
+                          Charlie Chaplin representa bem esse estilo, como pode ser visto na
+                          <strong>Figura 14.</strong>
+                        </p><!--caixa secundaria-->
+                      </div>
+                    </section>
                 </section>
-            </section>
-            <!-- FIM DA CAIXA SAIBA MAIS  -->
-
-            <!-- img modal -->
-            <div class="text-center img-01">
-              <p class="TituloFigura FonteMenor text-secondary p-2">
-                <strong>Figura 14:</strong> Uma esteira rolante industrial no filme “Tempos Modernos”
-              </p>
-              <div class="zoom">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                  <img src="imgs/topico02/figura14.gif">
-                </a>
+                <!-- FIM DA CAIXA SAIBA MAIS  -->
               </div>
-              <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> google</p>
-            </div>
-
-            <!-- Imagem 01 - MODAL (Audi)-->
-            <div class="modal fade text-center" id="Imagem01" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                <div class="modal-content w-50">
-
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                    <img src="imgs/topico02/figura14.gif" class="object-fit-contain w-100 ">
-                  </a>
+              <div class="col-md-6">
+                <!-- img modal -->
+                <div class="text-center img-01">
+                  <p class="TituloFigura FonteMenor text-secondary p-2">
+                    <strong>Figura 14:</strong> Uma esteira rolante industrial no filme “Tempos Modernos”
+                  </p>
+                  <div class="zoom">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
+                      <img src="imgs/topico02/figura14.gif">
+                    </a>
+                  </div>
+                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> google</p>
                 </div>
-                <div class="modal-footer w-50 bg-light justify-content-center">
-                  <p class="text-secondary"><strong>Fonte:</strong> google</p>
+
+                <!-- Imagem 01 - MODAL (Audi)-->
+                <div class="modal fade text-center" id="Imagem01" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                    <div class="modal-content w-50">
+
+                      <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
+                        <img src="imgs/topico02/figura14.gif" class="object-fit-contain w-100 ">
+                      </a>
+                    </div>
+                    <div class="modal-footer w-50 bg-light justify-content-center">
+                      <p class="text-secondary"><strong>Fonte:</strong> google</p>
+                    </div>
+                  </div>
                 </div>
+                <!-- Imagem 01 - End  (Audi)-->
               </div>
             </div>
-            <!-- Imagem 01 - End  (Audi)-->
-
             <p>
               Dentro desse contexto um casal de estudiosos se destacou: <strong>Lillian Gilbreth e Frank
                 Gilbreth (Figura 15).</strong> Ambos engenheiros e ela doutora em psicologia, uniram as
@@ -261,50 +264,53 @@
             <!-- FIM DA CAIXA SAIBA MAIS  -->
 
             <h4 class="Titulo corsub">1879 - Psicologia aplicada</h4>
-
-            <p>
-              Em outros lugares do mundo, cientistas estudavam os modelos de pensamento, sobre como
-              realizamos as tarefas de maneira cognitiva, e o que nos motiva. Em 1879, Wilhelm Wundt
-              fundou o primeiro laboratório de psicologia aplicada, como sensações táteis, percepções
-              espaciais, processos atencionais, sentimentos e afetos, processos de associação e memória,
-              etc (ARAUJO, 2009). A criação desse laboratório teve impacto em como as pesquisas eram
-              realizadas e conduzidas. O protocolo de avaliação de UX hoje evoluiu a partir desse formato.
-            </p>
-
-            <!-- img modal -->
-            <div class="text-center img-01">
-              <p class="TituloFigura FonteMenor text-secondary p-2">
-                <strong>Figura 16:</strong> Wilhelm Wundt e sua equipe no laboratório de psicologia
-                aplicada na Universidade de Leipzig, Alemanha
-              </p>
-              <div class="zoom">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem04">
-                  <img src="imgs/topico02/figura16.png">
-                </a>
+            <div class="row">
+              <div class="col-md-5 d-flex align-items-center">
+                <p>
+                  Em outros lugares do mundo, cientistas estudavam os modelos de pensamento, sobre como
+                  realizamos as tarefas de maneira cognitiva, e o que nos motiva. Em 1879, Wilhelm Wundt
+                  fundou o primeiro laboratório de psicologia aplicada, como sensações táteis, percepções
+                  espaciais, processos atencionais, sentimentos e afetos, processos de associação e memória,
+                  etc (ARAUJO, 2009). A criação desse laboratório teve impacto em como as pesquisas eram
+                  realizadas e conduzidas. O protocolo de avaliação de UX hoje evoluiu a partir desse formato.
+                </p>
               </div>
-              <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
-                  href="https://psicoativo.com/2016/08/quem-criou-o-primeiro-laboratorio-de-psicologia-experimental.html#:~:text=Wilhelm%20Wundt,para%20uma%20disciplina%20cient%C3%ADfica%20%C3%BAnica."
-                  class="aref">Psicoativo</a></p>
-            </div>
-
-            <!-- Imagem 01 - MODAL (Audi)-->
-            <div class="modal fade text-center" id="Imagem04" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                <div class="modal-content w-75 ">
-
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                    <img src="imgs/topico02/figura16.png" class="object-fit-contain w-100 ">
-                  </a>
-                </div>
-                <div class="modal-footer w-75 bg-light justify-content-center">
-                  <p class="text-secondary"><strong>Fonte:</strong> <a
+              <div class="col-md-7">
+                <!-- img modal -->
+                <div class="text-center img-01">
+                  <p class="TituloFigura FonteMenor text-secondary p-2">
+                    <strong>Figura 16:</strong> Wilhelm Wundt e sua equipe no laboratório de psicologia
+                    aplicada na Universidade de Leipzig, Alemanha
+                  </p>
+                  <div class="zoom">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem04">
+                      <img src="imgs/topico02/figura16.png">
+                    </a>
+                  </div>
+                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
                       href="https://psicoativo.com/2016/08/quem-criou-o-primeiro-laboratorio-de-psicologia-experimental.html#:~:text=Wilhelm%20Wundt,para%20uma%20disciplina%20cient%C3%ADfica%20%C3%BAnica."
                       class="aref">Psicoativo</a></p>
                 </div>
+
+                <!-- Imagem 01 - MODAL (Audi)-->
+                <div class="modal fade text-center" id="Imagem04" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                    <div class="modal-content w-75 ">
+
+                      <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
+                        <img src="imgs/topico02/figura16.png" class="object-fit-contain w-100 ">
+                      </a>
+                    </div>
+                    <div class="modal-footer w-75 bg-light justify-content-center">
+                      <p class="text-secondary"><strong>Fonte:</strong> <a
+                          href="https://psicoativo.com/2016/08/quem-criou-o-primeiro-laboratorio-de-psicologia-experimental.html#:~:text=Wilhelm%20Wundt,para%20uma%20disciplina%20cient%C3%ADfica%20%C3%BAnica."
+                          class="aref">Psicoativo</a></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Imagem 01 - End  (Audi)-->
               </div>
             </div>
-            <!-- Imagem 01 - End  (Audi)-->
-
             <h4 class="Titulo corsub">1918 - Primeira Guerra Mundial</h4>
 
             <p>
@@ -403,70 +409,73 @@
             </p>
 
             <h4 class="Titulo corsub">1988 - “O design do dia-a-dia”</h4>
+            <div class="row mt-4 mb-4">
+              <div class="col-md-6">
+                <p>
+                  Em 1988 Don Norman, cientista cognitivo, publicou o livro O Design do
+                  Dia-a-dia. No livro, Norman descreve a psicologia por trás do que ele chama
+                  de design “bom” e “ruim” por meio de estudos de caso. Baseado nestes
+                  resultados, ele propõe princípios de design.
+                </p>
 
-            <p>
-              Em 1988 Don Norman, cientista cognitivo, publicou o livro O Design do
-              Dia-a-dia. No livro, Norman descreve a psicologia por trás do que ele chama
-              de design “bom” e “ruim” por meio de estudos de caso. Baseado nestes
-              resultados, ele propõe princípios de design.
-            </p>
+                <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+                <section class="container">
+                  <div class="accordion">
+                    <section id="content">
+                      <div class="caixaprincipal" id="tituloSaibaMais">
+                        <div class="div_teste">
+                          <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
 
-            <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-            <section class="container">
-              <div class="accordion">
-                <section id="content">
-                  <div class="caixaprincipal" id="tituloSaibaMais">
-                    <div class="div_teste">
-                      <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
-
-                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                    </div>
-                  </div> <!--caixa Principal-->
-                  <div class="accordion-content" id="saibamais">
-                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                    <p class="txt-caixasecundaria"><a target="blank"
-                        href="https://pt.wikipedia.org/wiki/Donald_Norman">Don Norman</a> é Design Thinker, Cientista
-                      Cognitivo, e um dos maiores
-                      estudiosos de design UX. É professor emérito de ciência cognitiva na
-                      Universidade da Califórnia em San Diego, professor de ciência da
-                      computação na Universidade Northwestern, leciona na Universidade de
-                      Stanford e é co-fundador do Nielsen Norman Group, considerado
-                      atualmente o grupo mais consolidado da área.
-                    </p><!--caixa secundaria-->
-                  </div>
+                          <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                        </div>
+                      </div> <!--caixa Principal-->
+                      <div class="accordion-content" id="saibamais">
+                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                        <p class="txt-caixasecundaria"><a target="blank"
+                            href="https://pt.wikipedia.org/wiki/Donald_Norman">Don Norman</a> é Design Thinker, Cientista
+                          Cognitivo, e um dos maiores
+                          estudiosos de design UX. É professor emérito de ciência cognitiva na
+                          Universidade da Califórnia em San Diego, professor de ciência da
+                          computação na Universidade Northwestern, leciona na Universidade de
+                          Stanford e é co-fundador do Nielsen Norman Group, considerado
+                          atualmente o grupo mais consolidado da área.
+                        </p><!--caixa secundaria-->
+                      </div>
+                    </section>
                 </section>
-            </section>
-            <!-- FIM DA CAIXA SAIBA MAIS  -->
-
-            <!-- img modal -->
-            <div class="text-center img-01">
-              <p class="TituloFigura FonteMenor text-secondary p-2">
-                <strong>Figura 17:</strong> Don Norman
-              </p>
-              <div class="zoom">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem17">
-                  <img src="imgs/topico02/figura17.webp" alt="Imagem que remete a organização" id="img-1">
-                </a>
+                <!-- FIM DA CAIXA SAIBA MAIS  -->
               </div>
-              <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte: </strong> <a target="blank"
-                  href="https://uxdesign.blog.br/don-norman-e-o-termo-ux-6dffb3f8d218">UXDesign</a></p>
-            </div>
+              <div class="col-md-6">
+                <!-- img modal -->
+                <div class="text-center img-01">
+                  <p class="TituloFigura FonteMenor text-secondary p-2">
+                    <strong>Figura 17:</strong> Don Norman
+                  </p>
+                  <div class="zoom">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem17">
+                      <img src="imgs/topico02/figura17.webp" alt="Imagem que remete a organização" id="img-1">
+                    </a>
+                  </div>
+                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte: </strong> <a target="blank"
+                      href="https://uxdesign.blog.br/don-norman-e-o-termo-ux-6dffb3f8d218">UXDesign</a></p>
+                </div>
 
-            <!-- Imagem 01 - MODAL (Audi)-->
-            <div class="modal fade text-center" id="Imagem17" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                <div class="modal-content w-75">
-                  <img class="img-fluid" src="imgs/topico02/figura17.webp" alt="Alt da imagem fica aqui">
+                <!-- Imagem 01 - MODAL (Audi)-->
+                <div class="modal fade text-center" id="Imagem17" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                    <div class="modal-content w-75">
+                      <img class="img-fluid" src="imgs/topico02/figura17.webp" alt="Alt da imagem fica aqui">
+                    </div>
+                    <div class="modal-footer w-75 bg-light justify-content-center">
+                      <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a target="blank"
+                          href="https://uxdesign.blog.br/don-norman-e-o-termo-ux-6dffb3f8d218"> UXDesign</a></p>
+                    </div>
+                  </div>
                 </div>
-                <div class="modal-footer w-75 bg-light justify-content-center">
-                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a target="blank"
-                      href="https://uxdesign.blog.br/don-norman-e-o-termo-ux-6dffb3f8d218"> UXDesign</a></p>
-                </div>
+                <!-- Imagem 01 - End  (Audi)-->
               </div>
             </div>
-            <!-- Imagem 01 - End  (Audi)-->
-
             <h4 class="Titulo corsub">1990 - UX</h4>
 
             <p>
@@ -513,60 +522,64 @@
               que era barato, rápido e fácil de aplicar.
             </p>
 
-            <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-            <section class="container">
-              <div class="accordion">
-                <section id="content">
-                  <div class="caixaprincipal" id="tituloSaibaMais">
-                    <div class="div_teste">
-                      <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
-
-                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                    </div>
-                  </div> <!--caixa Principal-->
-                  <div class="accordion-content" id="saibamais">
-                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                    <p class="txt-caixasecundaria"><a target="blank"
-                        href="https://pt.wikipedia.org/wiki/Jakob_Nielsen">Jakob Nielsen</a> é um cientista da
-                      computação com Ph.D. em interação
-                      homem-máquina. É um <strong>User Advocate</strong> (a prática de usar porta-vozes
-                      designados para facilitar a interação entre usuários e designers dos
-                      produtos que utilizam) e diretor da Nielsen Norman Group, que ele cofundou com o Don Norman. </p>
-                    <!--caixa secundaria-->
+            <div class="row">
+              <div class="col-md-6">
+                <!-- img modal -->
+                <div class="text-center img-01 scool">
+                  <p class="TituloFigura FonteMenor text-secondary p-2">
+                    <strong>Figura 18</strong>- Jakob Nielsen
+                  </p>
+                  <div class="zoom">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem18">
+                      <img src="imgs/topico02/figura18.png">
+                    </a>
                   </div>
+                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Google</p>
+                </div>
+
+                <!-- Imagem 01 - MODAL (Audi)-->
+                <div class="modal fade text-center" id="Imagem18" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                    <div class="modal-content w-50">
+
+                      <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
+                        <img src="imgs/topico02/figura18.png" class="object-fit-contain w-100 ">
+                      </a>
+                    </div>
+                    <div class="modal-footer w-50 bg-light justify-content-center">
+                      <p class="text-secondary"><strong>Fonte:</strong> google</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Imagem 01 - End  (Audi)-->
+              </div>
+              <div class="col-md-6">
+                <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+                <section class="container">
+                  <div class="accordion">
+                    <section id="content">
+                      <div class="caixaprincipal" id="tituloSaibaMais">
+                        <div class="div_teste">
+                          <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+
+                          <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                        </div>
+                      </div> <!--caixa Principal-->
+                      <div class="accordion-content" id="saibamais">
+                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                        <p class="txt-caixasecundaria"><a target="blank"
+                            href="https://pt.wikipedia.org/wiki/Jakob_Nielsen">Jakob Nielsen</a> é um cientista da
+                          computação com Ph.D. em interação
+                          homem-máquina. É um <strong>User Advocate</strong> (a prática de usar porta-vozes
+                          designados para facilitar a interação entre usuários e designers dos
+                          produtos que utilizam) e diretor da Nielsen Norman Group, que ele cofundou com o Don Norman. </p>
+                        <!--caixa secundaria-->
+                      </div>
+                    </section>
                 </section>
-            </section>
-            <!-- FIM DA CAIXA SAIBA MAIS  -->
-
-            <!-- img modal -->
-            <div class="text-center img-01 scool">
-              <p class="TituloFigura FonteMenor text-secondary p-2">
-                <strong>Figura 18</strong>- Jakob Nielsen
-              </p>
-              <div class="zoom">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem18">
-                  <img src="imgs/topico02/figura18.png">
-                </a>
-              </div>
-              <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Google</p>
-            </div>
-
-            <!-- Imagem 01 - MODAL (Audi)-->
-            <div class="modal fade text-center" id="Imagem18" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                <div class="modal-content w-50">
-
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                    <img src="imgs/topico02/figura18.png" class="object-fit-contain w-100 ">
-                  </a>
-                </div>
-                <div class="modal-footer w-50 bg-light justify-content-center">
-                  <p class="text-secondary"><strong>Fonte:</strong> google</p>
-                </div>
+                <!-- FIM DA CAIXA SAIBA MAIS  -->
               </div>
             </div>
-            <!-- Imagem 01 - End  (Audi)-->
-
             <h4 class="Titulo corsub">2000 - A era dos dispositivos portáteis</h4>
 
             <p>

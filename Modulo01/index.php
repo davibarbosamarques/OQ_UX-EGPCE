@@ -139,21 +139,23 @@
                                 o dispositivo, o vendedor falou de funcionalidades e características que eu já conhecia:
                             </p>
 
-                            <ul class="none">
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                        class="fa fa-dot-circle text-success"></i>
-                                    Tem caixas de som;
+                            <div class="apresentacao mb-5">
+                        <div class="img_apresentacao wow animate__zoomIn">
+                            <img src="imgs-pessoas/pessoa.png" class="w-100" alt="">
+                        </div>
+                        <div>
+                            <!-- lista ordenada  -->
+                            <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-1-circle"></i> Tem caixas de som;
                                 </li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
-                                        class="fa fa-dot-circle text-success"></i>
-                                    Toca som via bluetooth ou pen drive (dispositivo de armazenamento USB);
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-2-circle"></i> Toca som via bluetooth ou pen drive (dispositivo de armazenamento USB);
                                 </li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.9s"><i
-                                        class="fa fa-dot-circle text-success"></i>
-                                    Toca rádio AM e FM.
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-3-circle"></i> Toca rádio AM e FM.
                                 </li>
                             </ul>
-
+                            <!-- fim da lista ordenada  -->
+                        </div>
+                    </div>
                             <p>
                                 Em casa, após retirá-lo da caixa, analisei o objeto que acabei de comprar e olhei tudo
                                 aquilo que parecia ser clicável ou que se movimentava: botões, antena etc. É comum
@@ -322,11 +324,11 @@
                                 design e que são a base do conceito de design UX:
                             </p>
 
-                            <ol>
-                                <li>É fácil de aprender?</li>
-                                <li>É fácil de recordar?</li>
-                                <li>Você se sente satisfeito?</li>
-                            </ol>
+                            <div class="processo">
+                                <div class="ex ex-1 mb-5 wow animate__backInDown" data-wow-delay="0.5s">É fácil de aprender?</div>
+                                <div class="ex ex-1 mb-5 wow animate__backInDown" data-wow-delay="0.7s">É fácil de recordar?</div>
+                                <div class="ex ex-1 mb-5 wow animate__backInDown" data-wow-delay="0.9s">Você se sente satisfeito?</div>
+                            </div>
 
                             <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
                             <section class="container">

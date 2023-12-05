@@ -18,8 +18,11 @@ ol {
   color: rgb(74, 91, 107);
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
+  margin-bottom: 2rem;
 }
-
+[data-theme="dark"] .corsub{
+  color: rgb(224, 223, 223);
+}
 .brdtop {
   margin-top: 1em;
   padding: 0.5em 0.5em;
@@ -245,3 +248,103 @@ article p {
   border-top-left-radius: 2em;
   color: white;
 }
+
+/* IMAGEM E TEXTO NO TÓPICO APRESENTAÇÃO */
+.texto_apresentacao {
+  background-color: orange;
+  border-radius: 100px 100px 100px 0;
+  padding: 40px;
+  margin-top: 1rem;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.texto_apresentacao_lista {
+  background-color: #1ab6b6;
+  border-radius: 100px 100px 100px 0;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 3rem;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.texto_apresentacao_lista i {
+  font-size: 19px;
+  margin-right: 5px;
+}
+
+.texto_apresentacao2 {
+  background-color: orange;
+  border-radius: 100px 100px 100px 0;
+  padding: 20px;
+  margin-top: 1rem;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+[data-theme="dark"] .texto_apresentacao {
+  color: black;
+}
+
+@media (min-width:1250px) {
+  .apresentacao {
+      display: grid;
+      grid-template-columns: 40% 50%;
+  }
+
+  .img_apresentacao {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .img_apresentacao img {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      width: 80%;
+      height: auto;
+  }
+}
+
+@media (max-width:1250px) {
+  .img_apresentacao {
+      display: none;
+  }
+}
+
+/* IMAGEM E TEXTO NO TÓPICO APRESENTAÇÃO END*/
+/* listas diferenciadas */
+
+.processo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+}
+
+.ex {
+  background-color: #f59c00;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: var(--FonteRaleway);
+  font-size: 1.1rem;
+}
+
+@media(min-width:1000px) {
+  .ex-1:first-child {
+    margin-left: 5rem;
+  }
+
+  .ex-1:last-child {
+    margin-right: 5rem;
+  }
+}
+/* fim das listas  */
