@@ -20,62 +20,6 @@
             <div class="main-content container-fluid">
 
 
-                <div class="container mt-4 wow animate__zoomIn">
-                    <div class="cards">
-                        <label id="summary">
-                            <input type="checkbox" />
-                            <article class="article-topico02">
-                                <div class="front">
-                                    <header>
-                                        <h2><strong>Clique para saber mais</strong></h2>
-                                        <span class="material-symbols-outlined"> <i
-                                                class="fa-regular fa-hand-pointer fs-4" style="color: #fff"></i>
-                                        </span>
-                                    </header>
-
-                                    <p class="text-left paragrafo">
-                                        Isto ocorre porque pessoas com alta Inteligência Emocional
-                                        costumam ser
-                                        muito
-                                        eficazes em processos adaptativos, conseguindo facilmente
-                                        perceber
-                                        mudanças e se
-                                        ajustar a elas. Além disso, é bastante provável que elas
-                                        consigam
-                                        facilmente
-                                        conectar-se em novos relacionamentos interpessoais, o que
-                                        explica o fato
-                                        dela
-                                        ser um fator preponderante para quem trabalha com vendas e
-                                        negociações.
-                                    </p>
-
-                                </div>
-                                <div class="back">
-                                    <header>
-                                        <h2><strong>Clique para voltar</strong></h2>
-                                        <i class="fa-regular fa-hand-pointer fs-4" style="color: #fff"></i>
-                                    </header>
-                                    <div class="text-left">
-                                        <p class="paragrafo">
-                                            Por outro lado, uma baixa Inteligência Emocional pode nos
-                                            levar a
-                                            problemas de
-                                            comunicação, de interação com as novidades, e pode inclusive
-                                            nos
-                                            induzir a tomar
-                                            decisões precipitadas que geram conflitos ou danos contra a
-                                            própria
-                                            pessoa e os
-                                            outros (CURY, 2007).
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-                        </label>
-                    </div>
-                </div>
-
 
                 <div class="row">
                     <!-- Begin row -->

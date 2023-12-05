@@ -859,34 +859,41 @@ include('layout/head.php');
                             </div>
                         </div>
                         <!-- Imagem 01 - End  (Audi)-->
+    
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- CAIXA DE TEXTO CURIOSIDADE -->
+                                <section class="container">
+                                    <div class="accordion ">
+                                        <section id="content">
+                                            <div class="caixaprincipal" id="tituloCuriosidade">
+                                                <div class="div_teste">
+                                                    <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
 
-                        <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container">
-                            <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloCuriosidade">
-                                        <div class="div_teste">
-                                            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
-
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="Curiosidade">
-                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                                                    Passe o mouse acima
-                                                </strong></strong></p>
-                                        <p class="txt-caixasecundaria"><a target="blank"
-                                                href="https://www.youtube.com/watch?v=dEAQkHj25hg" class="aref">Clique
-                                                aqui</a> ou aponte a câmera do seu celular para o QRCode caso
-                                            queira expandir um pouco mais os conceitos de usuário e interface, veja o
-                                            vídeo de um comercial de um Pet-commerce.
-                                        </p><!--caixa secundaria-->
-                                    </div>
+                                                    <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                                </div>
+                                            </div> <!--caixa Principal-->
+                                            <div class="accordion-content" id="Curiosidade">
+                                                <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                            Passe o mouse acima
+                                                        </strong></strong></p>
+                                                <p class="txt-caixasecundaria"><a target="blank"
+                                                        href="https://www.youtube.com/watch?v=dEAQkHj25hg" class="aref">Clique
+                                                        aqui</a> ou aponte a câmera do seu celular para o QRCode caso
+                                                    queira expandir um pouco mais os conceitos de usuário e interface, veja o
+                                                    vídeo de um comercial de um Pet-commerce.
+                                                </p><!--caixa secundaria-->
+                                            </div>
+                                        </section>
                                 </section>
-                        </section>
-                        <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
-                        <div class="text-center">
-                            <img src="imgs/topico01/QRCode.png" alt="QRCode">
+                                <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
+   
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-center">
+                                    <img src="imgs/topico01/QRCode.png" alt="QRCode">
+                                </div>
+                            </div>
                         </div>
                         <p>Imagine agora que você nunca viu um iPad, mas acabei de lhe entregar
                             um e dizer que você pode ler livros nele. Antes de ligar o iPad, antes de usálo, você tem um

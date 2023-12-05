@@ -39,7 +39,7 @@
 
                                 <div class="col-sm-12 col-md-7 mt-5">
                                     <div class="row container mt-6 wow animate__zoomIn">
-                                        <div class="mensagem md-5">
+                                        <div class="texto_apresentacao md-5">
                                             <p class=" text-left paragrafo mb-4">
                                                 <strong>Olá [Nome_Completo]</strong>, bem-vindo ao curso sobre
                                                 <strong>Design de experiência do usuário: O que é UX?</strong>. <br>
@@ -162,7 +162,10 @@
                                 analisarmos objetos novos. Algo que chamou bastante atenção foi um item brilhoso logo na
                                 parte da frente dele...
                             </p>
-
+                            <div class="text-center wow fadeIn" data-wow-delay="0.3s">
+                            <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
+                                        style="color:white"></i> Clique abaixo.</span></h4>
+                            </div>
                             <!-- começo das questões de fixação -->
                             <div id="base">
                                 <div class="accordion accordion-flush" id="accordionFlushExample">

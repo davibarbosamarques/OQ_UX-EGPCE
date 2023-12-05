@@ -485,7 +485,7 @@ hr {
 }
 
 .accordion {
-    width: 1000px;
+    width: 100%;
     /*define o tamanho do acordeon*/
     margin: 40px 10px 0px 10px;
     /*coloquei o top só para tirar lá de cima e nas laterais para no reponsivo não grudar na tela*/

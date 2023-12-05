@@ -40,5 +40,5 @@
     </script>
 
 
-    <title>EGPCE | Gestão do Tempo</title>
+    <title>EGPCE | Design de Experiência do Usuário: O Que é Ux?</title>
 </head>
