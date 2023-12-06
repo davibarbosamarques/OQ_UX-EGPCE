@@ -227,55 +227,73 @@ include('layout/head.php');
                             SIGCHI curricula for human-computer interaction (HEWETT et al., 1992), é
                             possível entender IHC dentro de um contexto de 5 aspectos interrelacionados:
                         </p>
+                        <div class="apresentacao mb-5">
+                        <div class="img_apresentacao wow animate__zoomIn">
+                            <img src="imgs-pessoas/pessoa.png" class="w-100" alt="">
+                        </div>
+                        <div>
+                            <!-- lista ordenada  -->
+                            <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-1-circle"></i> Natureza da interação;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-2-circle"></i> Contexto de uso;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-3-circle"></i> Características humanas;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-4-circle"></i> Sistemas computacionais;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-5-circle"></i> Processo de desenvolvimento.
+                                </li>
 
-                        <ol id="txt_final">
-                            <li>Natureza da interação;</li>
-                            <li>Contexto de uso;</li>
-                            <li>Características humanas;</li>
-                            <li>Sistemas computacionais;</li>
-                            <li>Processo de desenvolvimento.</li>
-                        </ol>
+                            </ul>
+                            <!-- fim da lista ordenada  -->
+                        </div>
+                    </div>
 
                         <p>Algumas das inter-relações entre esses tópicos estão representadas na
                             <strong> Figura 4 </strong>(HEWETT et al., 1992).
                         </p>
-
-                        <div class="text-center img-04">
-                            <div class="zoom">
-                                <a href="imagens/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem04">
-                                    <img src="imgs/topico01/figura04.png" alt="Imagem que remete a organização"
-                                        id="img-4">
-                                </a>
-                            </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>BARBOSA; SILVA, 2010
-                            </p>
-                        </div>
-
-                        <!-- Imagem 01 - MODAL (Audi)-->
-                        <div class="modal fade text-center" id="Imagem04" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/topico01/figura04.png"
-                                        alt="Alt da imagem fica aqui">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="destaque">
+                                <p>Na imagem, vemos que os sistemas computacionais existem em um
+                                ambiente <strong>social, organizacional e de trabalho </strong> mais amplo. Dentro deste
+                                contexto existem <strong>aplicações</strong> para as quais desejamos empregar esses
+                                sistemas. Porém o processo de colocar os computadores para funcionar
+                                significa que os <strong>aspectos humanos,</strong> técnicos e de trabalho da situação do
+                                aplicativo devem ser ajustados uns aos outros por meio da aprendizagem
+                                humana, adaptabilidade do sistema ou outras estratégias. </p>
                                 </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 04: </strong>Abordagens de desenvolvimento
+                            </div>
+                            <div class=col-md-6>
+                                <div class="text-center img-04">
+                                    <div class="zoom">
+                                        <a href="imagens/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem04">
+                                            <img src="imgs/topico01/figura04.png" class="w-75" alt="Imagem que remete a organização"
+                                                id="img-4">
+                                        </a>
+                                    </div>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>BARBOSA; SILVA, 2010
                                     </p>
+                                </div>  
+
+                                <!-- Imagem 01 - MODAL (Audi)-->
+                                <div class="modal fade text-center" id="Imagem04" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        <div class="modal-content w-75">
+                                            <img class="img-fluid" src="imgs/topico01/figura04.png"
+                                                alt="Alt da imagem fica aqui">
+                                        </div>
+                                        <div class="modal-footer w-75 bg-light justify-content-center">
+                                            <p class="text-secondary"><strong>Figura 04: </strong>Abordagens de desenvolvimento
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
+                                <!-- Imagem 01 - End  (Audi)-->
                             </div>
-                        </div>
-                        <!-- Imagem 01 - End  (Audi)-->
-
-                        <p>Na imagem, vemos que os sistemas computacionais existem em um
-                            ambiente <strong>social, organizacional e de trabalho </strong> mais amplo. Dentro deste
-                            contexto existem <strong>aplicações</strong> para as quais desejamos empregar esses
-                            sistemas. Porém o processo de colocar os computadores para funcionar
-                            significa que os <strong>aspectos humanos,</strong> técnicos e de trabalho da situação do
-                            aplicativo devem ser ajustados uns aos outros por meio da aprendizagem
-                            humana, adaptabilidade do sistema ou outras estratégias. </p>
-
                         <p>Além do uso e do contexto social dos computadores, do lado humano
                             também devemos levar em consideração as características de
                             <strong>processamento da informação </strong>humana, <strong>comunicação</strong> e
@@ -283,20 +301,37 @@ include('layout/head.php');
                             físicas dos usuários, que envolvem a <strong>ergonomia.</strong>
                         </p>
 
-                        <p>Do lado do computador, que hoje representa uma infinidade de
-                            dispositivos, como smartphones, relógios inteligentes (smartwatches),
-                            dispositivos de assistentes inteligentes e outros, temos uma variedade de tecnologias
-                            desenvolvidas para dar suporte à interação com humanos. Essas
-                            tecnologias estabelecem <strong>dispositivos de entrada e saída</strong> que conectam o
-                            humano e a máquina. Estes dispositivos, também conhecidos por periféricos,
-                            que podem ser teclados, câmeras e até batimentos cardíacos, são usados a
-                            partir de várias <strong>técnicas</strong> para organizar um diálogo. Essas técnicas, por
-                            sua
-                            vez, são usadas para implementar elementos de design maiores, como a
-                            metáfora da interface. Aprofundando-se nos substratos da máquina que dão
-                            suporte ao diálogo, o diálogo pode fazer uso extensivo de técnicas de
-                            computação gráfica. </p>
-
+                        <h5 class="text-center wow fadeIn" data-wow-delay="0.3s"><span class="badge bg-warning p-2"><i class="bi bi-lightbulb-fill"></i>
+                                Clique para saber mais</span></h5>
+                            <div class="container wow fadeIn" data-wow-delay="0.3s">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button text-light collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            <h5>Do lado do computador...</h5>
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                        <div class="accordion-body">       
+                                        dispositivos, como smartphones, relógios inteligentes (smartwatches),
+                                        dispositivos de assistentes inteligentes e outros, temos uma variedade de tecnologias
+                                        desenvolvidas para dar suporte à interação com humanos. Essas
+                                        tecnologias estabelecem <strong>dispositivos de entrada e saída</strong> que conectam o
+                                        humano e a máquina. Estes dispositivos, também conhecidos por periféricos,
+                                        que podem ser teclados, câmeras e até batimentos cardíacos, são usados a
+                                        partir de várias <strong>técnicas</strong> para organizar um diálogo. Essas técnicas, por
+                                        sua
+                                        vez, são usadas para implementar elementos de design maiores, como a
+                                        metáfora da interface. Aprofundando-se nos substratos da máquina que dão
+                                        suporte ao diálogo, o diálogo pode fazer uso extensivo de técnicas de
+                                        computação gráfica. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <h4 class="subsubtopico fw-bolder">02.1.1 - Natureza da Interação</h4>
 
                         <p>A natureza da interação envolve investigar o que ocorre enquanto as
@@ -360,8 +395,21 @@ include('layout/head.php');
                             transtornos estudados, citam o “Efeito Google”, que é quando as pessoas
                             começam a reter menos informações já que podem obter respostas rápidas
                             no Google.</p>
-
-                        <p>Outro transtorno relacionado que causa comportamentos não esperados
+                            <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <p class="d-flex justify-content-center gap-1 mt-5 mb-5 collapse-pai wow animate__zoomIn"
+                                    data-wow-deley="0.3s">
+                                    <button class="btn btn-collapse text-light" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseExample2" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        <i class="fa-regular fa-hand-pointer fa-beat me-1" style="color: #fff;"></i>
+                                        <strong>Clique para
+                                            saber mais...</strong>
+                                    </button>
+                                </p>
+                                <div class="collapse" id="collapseExample2">
+                                    <div class="text-collapse body-collpse">
+                                    Outro transtorno relacionado que causa comportamentos não esperados
                             do indivíduo em sociedade é a “Invisibilidade Social”. A invisibilidade social
                             vem sendo bastante explorada em filmes e séries que trazem a tecnologia
                             como tema principal. Dois filmes que trazem essa discussão de forma mais
@@ -375,15 +423,36 @@ include('layout/head.php');
                             o impacto das informações pessoais que recebemos pelos celulares em um jogo entre amigos.
                             Apesar de a discussão nestes filmes ocorrer de forma mais
                             leve, o problema é sério e pode desenvolver transtornos mais graves.
-                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <p>Você já se deu conta destes efeitos e de como o design tem
+                            <div class="col-sm-12 col-md-6">
+                                <p class="d-flex collapse-pai justify-content-center mb-5 gap-1 mt-5 wow animate__zoomIn"
+                                    data-wow-deley="0.3s">
+                                    <button class="btn btn-collapse text-light" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseExample3" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        <i class="fa-regular fa-hand-pointer fa-beat me-1" style="color: #fff;"></i>
+                                        <strong>Clique para
+                                            saber mais...</strong>
+                                    </button>
+                                </p>
+                                <div class="collapse" id="collapseExample3">
+                                    <div class="text-collapse body-collpse mb-3">
+                                    Você já se deu conta destes efeitos e de como o design tem
                             responsabilidade sobre isto? Em outro exemplo recente, o documentário <a
                                 href="https://www.youtube.com/watch?v=7X54fS0SQyw" class="aref">“O
                                 Dilema das Redes”</a> expõe uma opinião sobre a manipulação sofrida pelos
                             usuários das redes sociais com o objetivo de propiciar ganhos financeiros às
                             empresas, analisando o papel das redes sociais e os danos que elas causam à
                             sociedade.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p>
                         </p>
 
                         <p>Outro ponto importante sobre a natureza da interação é como a
@@ -592,22 +661,26 @@ include('layout/head.php');
                             como no exemplo do Paper.
                         </p>
 
-
-                        <div class="text-center img-08">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 8, 8.1 e 8.2</strong>
-                                - Linguagens e contextos de uso</p>
-                            <div class="zoom">
-                                <a href="imagens/Figura08.png" data-bs-toggle="modal" data-bs-target="#Imagem08">
-                                    <img src="imgs/topico01/figura08.png" alt="Imagem de uma bússula" id="img-2">
-                                </a>
+                        <div class="text-center">                                    <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 8, 8.1 e 8.2</strong>
+                                        - Linguagens e contextos de uso</p></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-center img-08">
+                                    <div class="zoom">
+                                        <a href="imagens/Figura08.png" data-bs-toggle="modal" data-bs-target="#Imagem08">
+                                            <img src="imgs/topico01/figura08.png" alt="Imagem de uma bússula" id="img-2">
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="text-center img-08">
-                            <div class="zoom">
-                                <a href="imagens/Figura08-1.png" data-bs-toggle="modal" data-bs-target="#Imagem08-1">
-                                    <img src="imgs/topico01/figura08-1.png" alt="Imagem de uma bússula" id="img-2">
-                                </a>
+                            <div class="col-md-6">
+                            <div class="text-center img-08">
+                                <div class="zoom">
+                                    <a href="imagens/Figura08-1.png" data-bs-toggle="modal" data-bs-target="#Imagem08-1">
+                                        <img src="imgs/topico01/figura08-1.png" class="" alt="Imagem de uma bússula" id="img-2">
+                                    </a>
+                                </div>
+                            </div>
                             </div>
                         </div>
                         <div class="text-center img-08">
@@ -1008,46 +1081,50 @@ include('layout/head.php');
                             com tecnologias mais avançadas?
                         </p>
 
-                        <p>O <a target="blank" href="https://leadfortaleza.com.br/portal/atuacao"
-                                class="aref">LEAD</a>, Centro de Pesquisa, Desenvolvimento e Inovação Dell, por
-                            exemplo, é um local que explora conhecimento avançado em tecnologia para
-                            resolver problemas de acessibilidade. Um dos projetos de pesquisa que
-                            desenvolvem é o ARTRADE <strong>(Figura 12).</strong> O ARTRADE é uma aplicação mobile,
-                            para smartphones, que auxilia na montagem de hardware, ensinando os
-                            funcionários da fábrica da Dell a como montar peças completas de
-                            dispositivos da marca. Este projeto utiliza óculos de realidade aumentada e é
-                            acessível para pessoas com deficiência auditiva.
-                        </p>
-
-                        <!-- IMAGEM 12-->
-                        <div class="text-center">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 12</strong> - ARTRADE
-                            </p>
-                            <div class="zoom">
-                                <a href="imagens/Figura012.png" data-bs-toggle="modal" data-bs-target="#Imagem12">
-                                    <img src="imgs/topico01/figura12.png" alt="Imagem que remete a organização"
-                                        id="img-1">
-                                </a>
+                        <div class="row">
+                            <div class="col-md-6 mt-5 mb-2 destaque">
+                                <p>O <a target="blank" href="https://leadfortaleza.com.br/portal/atuacao"
+                                        class="aref">LEAD</a>, Centro de Pesquisa, Desenvolvimento e Inovação Dell, por
+                                    exemplo, é um local que explora conhecimento avançado em tecnologia para
+                                    resolver problemas de acessibilidade. Um dos projetos de pesquisa que
+                                    desenvolvem é o ARTRADE <strong>(Figura 12).</strong> O ARTRADE é uma aplicação mobile,
+                                    para smartphones, que auxilia na montagem de hardware, ensinando os
+                                    funcionários da fábrica da Dell a como montar peças completas de
+                                    dispositivos da marca. Este projeto utiliza óculos de realidade aumentada e é
+                                    acessível para pessoas com deficiência auditiva.
+                                </p>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary">Fonte: <a target="blank"
-                                    href="https://leadfortaleza.com.br/portal/atuacao">LEAD</a></p>
-                        </div>
-
-                        <!-- Imagem 12 - MODAL (Audi)-->
-                        <div class="modal fade text-center" id="Imagem12" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/topico01/figura12.png"
-                                        alt="Alt da imagem fica aqui">
-                                </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary">Figura 12</p>
+                            <div class="col-md-6">
+                                <!-- IMAGEM 12-->
+                                <div class="text-center">
+                                    <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 12</strong> - ARTRADE
+                                    </p>
+                                    <div class="zoom">
+                                        <a href="imagens/Figura012.png" data-bs-toggle="modal" data-bs-target="#Imagem12">
+                                            <img src="imgs/topico01/figura12.png" alt="Imagem que remete a organização"
+                                                id="img-1">
+                                        </a>
+                                    </div>
+                                    <p class="FonteFigura FonteMenor text-secondary">Fonte: <a target="blank"
+                                            href="https://leadfortaleza.com.br/portal/atuacao">LEAD</a></p>
                                 </div>
                             </div>
                         </div>
-                        <!-- Imagem 01 - End  (Audi)-->
+                                <!-- Imagem 12 - MODAL (Audi)-->
+                                <div class="modal fade text-center" id="Imagem12" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        <div class="modal-content w-75">
+                                            <img class="img-fluid" src="imgs/topico01/figura12.png"
+                                                alt="Alt da imagem fica aqui">
+                                        </div>
+                                        <div class="modal-footer w-75 bg-light justify-content-center">
+                                            <p class="text-secondary">Figura 12</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Imagem 01 - End  (Audi)-->
 
                         <h4 class="subsubtopico fw-bolder">02.1.5 - Processo de Desenvolvimento</h4>
 
@@ -1102,17 +1179,28 @@ include('layout/head.php');
                             da interação e da interface que as tornam adequadas aos efeitos esperados
                             do uso do sistema. Os critérios de qualidade de uso são:
                         </p>
-
-                        <ol id="txt_final">
+                       <div class="apresentacao mb-5">
+                        <div class="img_apresentacao wow animate__zoomIn">
+                            <img src="imgs-pessoas/pessoa.png" class="w-100" alt="">
+                        </div>
+                        <div>
                             <!-- lista ordenada  -->
-                            <li>Usabilidade: facilidade de aprendizado da interface e satisfação do usuário;</li>
-                            <li>Experiência do usuário: emoções e sentimentos do usuário;</li>
-                            <li>Acessibilidade: remoção das barreiras que impedem os usuários de interagir com a
-                                interface;</li>
-                            <li>Comunicabilidade: comunicar ao usuário as intenções de design e alógica que rege o
-                                comportamento da interface.</li>
+                            <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-1-circle"></i> Usabilidade: facilidade de aprendizado da interface e satisfação do usuário;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-2-circle"></i> Experiência do usuário: emoções e sentimentos do usuário;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-3-circle"></i> Acessibilidade: remoção das barreiras que impedem os usuários de interagir com a
+                                interface;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-4-circle"></i> Comunicabilidade: comunicar ao usuário as intenções de design e alógica que rege o
+                                comportamento da interface.
+                                </li>
+
+                            </ul>
                             <!-- fim da lista ordenada  -->
-                        </ol>
+                        </div>
+                    </div>
 
                         <p>A parte do processo de desenvolvimento que engloba as práticas e
                             conceitos de qualidade em IHC é chamada de “Processo de Design”. Existem

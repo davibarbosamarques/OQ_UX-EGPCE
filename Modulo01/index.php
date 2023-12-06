@@ -26,6 +26,31 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
 
+                    <h2 class="Titulo fw-bolder">OBJETIVOS</h2>
+
+                    <div class="apresentacao mb-5">
+                        <div class="img_apresentacao wow animate__zoomIn">
+                            <img src="imgs-pessoas/pessoa.png" class="w-100" alt="">
+                        </div>
+                        <div>
+                            <!-- lista ordenada  -->
+                            <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-1-circle"></i> Apresentar o termo UX (“experiência do usuário”);
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-2-circle"></i> Discutir as áreas de estudo relacionadas ao tema;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-3-circle"></i> Apresentar uma breve história de UX;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-4-circle"></i> Questionar quem é o usuário;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-5-circle"></i> Entender os benefícios da aplicação de design UX.
+                                </li>
+
+                            </ul>
+                            <!-- fim da lista ordenada  -->
+                        </div>
+                    </div>
+
                         <!-- Título -->
                         <h2 class="Titulo fw-bolder">Apresentação</h2>
                         <!-- Título -->
@@ -141,16 +166,16 @@
 
                             <div class="apresentacao mb-5">
                         <div class="img_apresentacao wow animate__zoomIn">
-                            <img src="imgs-pessoas/pessoa.png" class="w-100" alt="">
+                            <img src="imgs-pessoas/Group 11.png" class="w-100" alt="">
                         </div>
                         <div>
                             <!-- lista ordenada  -->
                             <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
-                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-1-circle"></i> Tem caixas de som;
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> Tem caixas de som;
                                 </li>
-                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-2-circle"></i> Toca som via bluetooth ou pen drive (dispositivo de armazenamento USB);
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> Toca som via bluetooth ou pen drive (dispositivo de armazenamento USB);
                                 </li>
-                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-3-circle"></i> Toca rádio AM e FM.
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> Toca rádio AM e FM.
                                 </li>
                             </ul>
                             <!-- fim da lista ordenada  -->
@@ -162,6 +187,34 @@
                                 analisarmos objetos novos. Algo que chamou bastante atenção foi um item brilhoso logo na
                                 parte da frente dele...
                             </p>
+                                            <!-- img modal -->
+                <div class="text-center img-01">
+                  <p class="TituloFigura FonteMenor text-secondary p-2">
+                    <strong>Figura 14:</strong> Uma esteira rolante industrial no filme “Tempos Modernos”
+                  </p>
+                  <div class="zoom">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
+                      <img src="imgs/apresentação/figura1.png">
+                    </a>
+                  </div>
+                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> google</p>
+                </div>
+
+                <!-- Imagem 01 - MODAL (Audi)-->
+                <div class="modal fade text-center" id="Imagem01" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                    <div class="modal-content w-50">
+
+                      <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
+                        <img src="imgs/topico02/figura14.gif" class="object-fit-contain w-100 ">
+                      </a>
+                    </div>
+                    <div class="modal-footer w-50 bg-light justify-content-center">
+                      <p class="text-secondary"><strong>Fonte:</strong> google</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Imagem 01 - End  (Audi)-->
                             <div class="text-center wow fadeIn" data-wow-delay="0.3s">
                             <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
                                         style="color:white"></i> Clique abaixo.</span></h4>
@@ -176,7 +229,7 @@
                                                 aria-expanded="false" aria-controls="flush-collapse" id="titulo">
 
                                                 <i id="puzzle" class="fa-solid fa-puzzle-piece"></i>
-                                                TESTE SEUS CONHECIMENTOS
+                                                FAÇA PARTE DA EXPERIÊNCIA
                                     </div>
                                     </button>
                                     </h2>
@@ -362,16 +415,6 @@
                             <!-- FIM DA CAIXA FIQUE ATENTO -->
 
                             <br>
-
-                            <h2 class="Titulo fw-bolder">OBJETIVOS</h2>
-
-                            <ol>
-                                <li>Apresentar o termo UX (“experiência do usuário”);</li>
-                                <li>Discutir as áreas de estudo relacionadas ao tema;</li>
-                                <li>Apresentar uma breve história de UX;</li>
-                                <li>Questionar quem é o usuário;</li>
-                                <li>Entender os benefícios da aplicação de design UX.</li>
-                            </ol>
 
                         </div>
 

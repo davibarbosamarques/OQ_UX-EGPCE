@@ -1052,13 +1052,11 @@ h2,
 
 }
 
-.accordion-body {
+.accordion-body{
     background-color: rgb(196, 255, 252);
     border-top: none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    display: flex;
-    justify-content: center;
     padding-left: 30px;
     margin-left: 5px;
     border: none;
