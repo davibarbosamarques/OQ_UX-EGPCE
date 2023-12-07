@@ -617,40 +617,33 @@
               (2007), a evolução das interfaces se apresenta da seguinte forma:
             </p>
 
-            <ul class="none">
-              <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i class="fa-solid fa-circle-check"
-                  style="color: #44833d;"></i>
-                <strong>Anos 1950:</strong> Interface de hardware “para engenheiros” com diversos
-                botões de interação
-              </li>
+            <div class="apresentacao mb-5">
+                        <div class="img_apresentacao wow animate__zoomIn">
+                            <img src="imgs-pessoas/Group 11.png" class="w-100" alt="">
+                        </div>
+                        <div>
+                            <!-- lista ordenada  -->
+                            <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde_menor" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> <strong>Anos 1950:</strong> Interface de hardware “para engenheiros” com diversos
+                                botões de interação
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde_menor" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> <strong>Anos 1960-1970:</strong> Interface de programação (COBOL, FORTRAN)
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde_menor" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> <strong>Anos 1970-1990:</strong> Interface de terminais (linguagens de comando)
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde_menor" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> <strong>Anos 1980:</strong> Interface de interação para diálogo (GUIs, multimídia)
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde_menor" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> <strong>Anos 1990:</strong> Interface para realizar trabalho (redes e grupos)
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde_menor" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> <strong>A partir de 2000:</strong> Interface torna-se onipresente (Aparelhos celulares,
+                                bluetooth, dispositivos móveis, eletrônicos, por toda a parte, telas
+                                interativas e muitas tecnologias embarcada)
+                                </li>
+                            </ul>
+                            <!-- fim da lista ordenada  -->
+                        </div>
+                    </div>
 
-              <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i class="fa-solid fa-circle-check"
-                  style="color: #44833d;"></i>
-                <strong>Anos 1960-1970:</strong> Interface de programação (COBOL, FORTRAN)
-              </li>
-
-              <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i class="fa-solid fa-circle-check"
-                  style="color: #44833d;"></i>
-                <strong>Anos 1970-1990:</strong> Interface de terminais (linguagens de comando)
-              </li>
-
-              <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i class="fa-solid fa-circle-check"
-                  style="color: #44833d;"></i>
-                <strong>Anos 1980:</strong> Interface de interação para diálogo (GUIs, multimídia)
-              </li>
-
-              <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i class="fa-solid fa-circle-check"
-                  style="color: #44833d;"></i>
-                <strong>Anos 1990:</strong> Interface para realizar trabalho (redes e grupos)
-              </li>
-
-              <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i class="fa-solid fa-circle-check"
-                  style="color: #44833d;"></i>
-                <strong>A partir de 2000:</strong> Interface torna-se onipresente (Aparelhos celulares,
-                bluetooth, dispositivos móveis, eletrônicos, por toda a parte, telas
-                interativas e muitas tecnologias embarcada)
-              </li>
-            </ul>
           </div>
 
         </div>

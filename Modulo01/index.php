@@ -76,7 +76,7 @@
                                                 utilizar o termo
                                                 design UX, como é comumente chamado no mundo da tecnologia da
                                                 informação. UX é um acrônimo
-                                                do termo inglês User eXperience, que em português é experiência do
+                                                do termo inglês <em>User eXperience</em>, que em português é experiência do
                                                 usuário.
                                             </p>
                                         </div>
@@ -118,6 +118,25 @@
                                 forma você interagiria com ele. Vamos a um exemplo prático!
                             </p>
 
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                            <p>
+                                Na <strong>Figura 1</strong> você está vendo um rádio bluetooth que foi comprado em uma
+                                loja
+                                de eletrônicos no Beco da Poeira, no Centro de Fortaleza. Com uma marca desconhecida que
+                                o
+                                identifica como N80, o dispositivo tinha um “ar” vintage, que trazia características
+                                belas e
+                                antigas, como o acabamento externo que lembrava madeira, e funcionalidades modernas,
+                                como
+                                tocar áudio se conectado ao celular. Com um valor bem mais acessível que as marcas
+                                famosas,
+                                o objeto ganhou apreço e um espaço na minha sala de estar. Apesar de não conhecer a
+                                marca ou
+                                o dispositivo, o vendedor falou de funcionalidades e características que eu já conhecia:
+                            </p>
+                            </div>
+                        <div class="col-md-6">
                             <!-- img modal -->
                             <div class="text-center img-01 wow animate__zoomIn">
                                 <p class="TituloFigura FonteMenor text-secondary p-2">
@@ -147,23 +166,7 @@
                                 </div>
                             </div>
                             <!-- Imagem 01 - End  (Audi)-->
-
-                            <p>
-                                Na <strong>Figura 1</strong> você está vendo um rádio bluetooth que foi comprado em uma
-                                loja
-                                de eletrônicos no Beco da Poeira, no Centro de Fortaleza. Com uma marca desconhecida que
-                                o
-                                identifica como N80, o dispositivo tinha um “ar” vintage, que trazia características
-                                belas e
-                                antigas, como o acabamento externo que lembrava madeira, e funcionalidades modernas,
-                                como
-                                tocar áudio se conectado ao celular. Com um valor bem mais acessível que as marcas
-                                famosas,
-                                o objeto ganhou apreço e um espaço na minha sala de estar. Apesar de não conhecer a
-                                marca ou
-                                o dispositivo, o vendedor falou de funcionalidades e características que eu já conhecia:
-                            </p>
-
+                        </div>
                             <div class="apresentacao mb-5">
                         <div class="img_apresentacao wow animate__zoomIn">
                             <img src="imgs-pessoas/Group 11.png" class="w-100" alt="">
@@ -187,34 +190,6 @@
                                 analisarmos objetos novos. Algo que chamou bastante atenção foi um item brilhoso logo na
                                 parte da frente dele...
                             </p>
-                                            <!-- img modal -->
-                <div class="text-center img-01">
-                  <p class="TituloFigura FonteMenor text-secondary p-2">
-                    <strong>Figura 14:</strong> Uma esteira rolante industrial no filme “Tempos Modernos”
-                  </p>
-                  <div class="zoom">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                      <img src="imgs/apresentação/figura1.png">
-                    </a>
-                  </div>
-                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> google</p>
-                </div>
-
-                <!-- Imagem 01 - MODAL (Audi)-->
-                <div class="modal fade text-center" id="Imagem01" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                    <div class="modal-content w-50">
-
-                      <a href="#" data-bs-toggle="modal" data-bs-target="#Imagem01">
-                        <img src="imgs/topico02/figura14.gif" class="object-fit-contain w-100 ">
-                      </a>
-                    </div>
-                    <div class="modal-footer w-50 bg-light justify-content-center">
-                      <p class="text-secondary"><strong>Fonte:</strong> google</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Imagem 01 - End  (Audi)-->
                             <div class="text-center wow fadeIn" data-wow-delay="0.3s">
                             <h4><span class="badge bg-warning text-dark-ênfase"><i class="fa fa-lightbulb"
                                         style="color:white"></i> Clique abaixo.</span></h4>
@@ -359,7 +334,7 @@
                             <!-- final da questao de fixacao -->
 
                             <p>
-                                A resposta correta é o item C, mas provavelmente você escolheu um dos itens a, b ou d.
+                                provavelmente você escolheu um dos itens errado.
                                 Por
                                 que isso acontece?
                             </p>

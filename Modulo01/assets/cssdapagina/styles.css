@@ -280,6 +280,16 @@ article p {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
+.texto_apresentacao_lista_verde_menor{
+  background-color: #26a737;
+  border-radius: 80px 100px 100px 0;
+  color: white;
+  padding: 13px;
+  font-size: 18px;
+  margin-top: 1.8rem;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 .texto_apresentacao_lista i {
   font-size: 19px;
   margin-right: 5px;

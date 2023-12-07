@@ -43,20 +43,23 @@
                             opinião:
                         </p>
 
-                        <ul class="none">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                    class="fa-solid fa-circle-check" style="color: #44833d;"></i>
-                                Os usuários reais em sua maioria não desenvolvem os sistemas que utilizam;
-                            </li>
-
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
-                                    class="fa-solid fa-circle-check" style="color: #44833d;"></i>
-                                Perfis dentro de uma equipe de desenvolvimento de sistemas tendem a ter um conhecimento
+                    <div class="apresentacao mb-5">
+                        <div class="img_apresentacao wow animate__zoomIn">
+                            <img src="imgs-pessoas/pessoa.png" class="w-100" alt="">
+                        </div>
+                        <div>
+                            <!-- lista ordenada  -->
+                            <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde_menor" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> <strong>Anos 1950:</strong> Os usuários reais em sua maioria não desenvolvem os sistemas que utilizam;
+                                </li>
+                                <li class="wow animate__zoomIn texto_apresentacao_lista_verde_menor" data-wow-delay="0.3s"><i class="fa-solid fa-check" style="color: #ffffff;"></i> Perfis dentro de uma equipe de desenvolvimento de sistemas tendem a ter um conhecimento
                                 avançado em tecnologias, isto também é algo muito diferente da realidade da maioria dos
                                 usuários.
-                            </li>
-                        </ul>
-
+                                </li>
+                            </ul>
+                            <!-- fim da lista ordenada  -->
+                        </div>
+                    </div>
                         <p>
                             Apesar de o termo ser simples, há muitas interpretações para o termo “usuário” e envolvê-los
                             de forma correta é fundamental para um design centrado no usuário bem-sucedido. De acordo
@@ -70,26 +73,73 @@
                             terciários, que são definidos como:
                         </p>
 
-                        <ul class="none srool">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                    class="fa-solid fa-circle-check" style="color: #44833d;"></i>
-                                <strong>usuários primários:</strong> são aqueles propensos a serem usuários frequentes
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4">
+                                <p class="d-flex justify-content-center gap-1 mt-5 mb-5 collapse-pai wow animate__zoomIn"
+                                    data-wow-deley="0.3s">
+                                    <button class="btn btn-collapse text-light" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseExample2" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        <i class="fa-regular fa-hand-pointer fa-beat me-1" style="color: #fff;"></i>
+                                        <strong>Clique para
+                                            saber mais...</strong>
+                                    </button>
+                                </p>
+                                <div class="collapse" id="collapseExample2">
+                                    <div class="text-collapse body-collpse">
+                                    <div class="text-center">
+                                        <p><strong>Usuários primários:</strong></p>
+                                    </div> 
+                                    São aqueles propensos a serem usuários frequentes
                                 do sistema;
-                            </li>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
-                                    class="fa-solid fa-circle-check" style="color: #44833d;"></i>
-                                <strong>Usuários secundários:</strong> são usuários ocasionais ou aqueles que usam
-                                através de um intermediário;
-                            </li>
+                            <div class="col-sm-12 col-md-4">
+                                <p class="d-flex collapse-pai justify-content-center mb-5 gap-1 mt-5 wow animate__zoomIn"
+                                    data-wow-deley="0.3s">
+                                    <button class="btn btn-collapse text-light" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseExample3" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        <i class="fa-regular fa-hand-pointer fa-beat me-1" style="color: #fff;"></i>
+                                        <strong>Clique para
+                                            saber mais...</strong>
+                                    </button>
+                                </p>
+                                <div class="collapse" id="collapseExample3">
+                                    <div class="text-collapse body-collpse mb-3">
+                                    <div class="text-center">
+                                        <p><strong>Usuários secundários:</strong></p>
+                                    </div> 
+                                    São usuários ocasionais ou aqueles que usam
+                                    através de um intermediário;
+                                    </div>
+                                </div>
+                            </div>
 
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
-                                    class="fa-solid fa-circle-check" style="color: #44833d;"></i>
-                                <strong>Usuários terciários:</strong> são aqueles afetados pela introdução do sistema ou
-                                que influenciarão sua compra.
-                            </li>
-                        </ul>
-
+                            <div class="col-sm-12 col-md-4">
+                                <p class="d-flex collapse-pai justify-content-center mb-5 gap-1 mt-5 wow animate__zoomIn"
+                                    data-wow-deley="0.3s">
+                                    <button class="btn btn-collapse text-light" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseExample4" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        <i class="fa-regular fa-hand-pointer fa-beat me-1" style="color: #fff;"></i>
+                                        <strong>Clique para
+                                            saber mais...</strong>
+                                    </button>
+                                </p>
+                                <div class="collapse" id="collapseExample4">
+                                    <div class="text-collapse body-collpse mb-3">
+                                    <div class="text-center">
+                                        <p><strong>Usuários terciários:</strong></p>
+                                    </div> 
+                                    São aqueles afetados pela introdução do sistema ou
+                                    que influenciarão sua compra.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <p>
                             Os projetos, em geral, possuem um conjunto grande de pessoas que estão relacionadas a ele,
                             que são chamadas de stakeholders, ou partes interessadas em português. As partes
