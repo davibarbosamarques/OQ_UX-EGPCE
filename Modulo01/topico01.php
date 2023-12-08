@@ -301,37 +301,19 @@ include('layout/head.php');
                             físicas dos usuários, que envolvem a <strong>ergonomia.</strong>
                         </p>
 
-                        <h5 class="text-center wow fadeIn" data-wow-delay="0.3s"><span class="badge bg-warning p-2"><i class="bi bi-lightbulb-fill"></i>
-                                Clique para saber mais</span></h5>
-                            <div class="container wow fadeIn" data-wow-delay="0.3s">
-                            <div class="accordion" id="accordionPanelsStayOpenExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button text-light collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
-                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                            <h5>Do lado do computador...</h5>
-                                        </button>
-                                    </h2>
-                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                                        <div class="accordion-body">       
-                                        dispositivos, como smartphones, relógios inteligentes (smartwatches),
-                                        dispositivos de assistentes inteligentes e outros, temos uma variedade de tecnologias
-                                        desenvolvidas para dar suporte à interação com humanos. Essas
-                                        tecnologias estabelecem <strong>dispositivos de entrada e saída</strong> que conectam o
-                                        humano e a máquina. Estes dispositivos, também conhecidos por periféricos,
-                                        que podem ser teclados, câmeras e até batimentos cardíacos, são usados a
-                                        partir de várias <strong>técnicas</strong> para organizar um diálogo. Essas técnicas, por
-                                        sua
-                                        vez, são usadas para implementar elementos de design maiores, como a
-                                        metáfora da interface. Aprofundando-se nos substratos da máquina que dão
-                                        suporte ao diálogo, o diálogo pode fazer uso extensivo de técnicas de
-                                        computação gráfica. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <p>Do lado do computador dispositivos, como smartphones, relógios inteligentes (smartwatches),
+                        dispositivos de assistentes inteligentes e outros, temos uma variedade de tecnologias
+                        desenvolvidas para dar suporte à interação com humanos. Essas
+                        tecnologias estabelecem <strong>dispositivos de entrada e saída</strong> que conectam o
+                        humano e a máquina. Estes dispositivos, também conhecidos por periféricos,
+                        que podem ser teclados, câmeras e até batimentos cardíacos, são usados a
+                        partir de várias <strong>técnicas</strong> para organizar um diálogo. Essas técnicas, por
+                        sua
+                        vez, são usadas para implementar elementos de design maiores, como a
+                        metáfora da interface. Aprofundando-se nos substratos da máquina que dão
+                        suporte ao diálogo, o diálogo pode fazer uso extensivo de técnicas de
+                        computação gráfica. </p>
+
                         <h4 class="subsubtopico fw-bolder">02.1.1 - Natureza da Interação</h4>
 
                         <p>A natureza da interação envolve investigar o que ocorre enquanto as

@@ -21,10 +21,12 @@
     <!-- nosso css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/cssdapagina/styles.css">
+    <link rel="stylesheet" href="assets/cssdogame/games.css">
     <!-- link do font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- link do script -->
     <script src="assets/js/script.js" defer></script>
+    <script src="assets/jsdogame/script.js" defer></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
     <!-- cdn jquery  -->

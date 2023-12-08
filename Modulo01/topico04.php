@@ -177,6 +177,121 @@
                         </div>
                         <!-- Citação com borda verde (esquerda) -->
 
+                        <div class="tudo">
+                            <div class="row d-flex align-items-center justify-content-between">
+                                <div class="col-sm-12 col-md-5 img-index">
+                                    <img src="imgs-pessoas/Group 4.png" alt="Imagem que remete a organização" id="img-1" class="w-75 wow animate__zoomIn img-apresentacao">
+                                    <div class="text-center">
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong> <a
+                                            target="blank"
+                                            href="https://br.freepik.com/vetores-premium/conceito-de-atividade-de-negocios_35481750.htm"> Imagem retirada do Freepik</a></p>
+                                    </div>
+                                </div>
+                        <div class="col-sm-12 col-md-7 mt-5">
+                                    <div class="row container mt-6 wow animate__zoomIn">
+                                        <div class="texto_apresentacao md-5">
+                                        <p class=" text-left paragrafo mb-4">
+                                       Olá [Nome_Completo],
+                                       antes de avançar para o próximo tópico clique abaixo e participe de um jogo sobre o conteúdo apresentado para solidificar o seu aprendizado.
+                                        </p>
+                                    </div>
+
+                                    <!-- MODAL 1 - INSTRÇÕES DO JOGO -->
+                                    <div>
+                                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+                                        tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i> Instruções do
+                                                Teste</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body fw-medium">
+                                                <ol id="instrucoes">
+                                                <li>Esse será um jogo para relacionar duas colunas</li>
+                                                <li>Para computador arraste a letra do item até o espaço vazio<br>
+                                                    Para celular toque na letra do item e depois no espaço vazio
+                                                </li>
+                                                <li>Se for colocado duas letras no mesmo espaço será considerada a última letra colocada</li>
+                                                <li>Se a resposta estiver correta ficara verde</li>
+                                                <li>Este teste não influenciará na avaliação final.</li>
+                                                </ol>
+                                            </div>
+                                            <div class="modal-footer d-flex justify-content-center">
+                                                <button class="btn" id="btn-continuar" data-bs-target="#exampleModalToggle2"
+                                                data-bs-toggle="modal">Continuar</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+
+                                        <!-- MODAL 2 - INÍCIO DO JOGO -->
+                                        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+                                        tabindex="-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i> Relacione as
+                                                colunas</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+
+                                            <div class="Jogo">
+                                                <ul class="column-A">
+                                                <div id="item-A">
+                                                    <li draggable="true">A</li>Usuários primários
+                                                </div>
+                                                <div id="item-A">
+                                                    <li draggable="true">B</li>Usuários secundários
+                                                </div>
+                                                <div id="item-A">
+                                                    <li draggable="true">C</li>Usuários terciários
+                                                </div>
+                                                </ul>
+
+                                                <ul class="column-B">
+                                                <div id="item-B">
+                                                    <p>
+                                                    <li class="dropzone" data-resposta="B"></li>São usuários ocasionais ou aqueles que usam através de um intermediário.
+                                                    </p>
+                                                </div>
+                                                <div id="item-B">
+                                                    <p>
+                                                    <li class="dropzone" data-resposta="C"></li>São aqueles afetados pela introdução do sistema ou que influenciarão sua compra.
+                                                    </p>
+                                                </div>
+                                                <div id="item-B">
+                                                    <p>
+                                                    <li class="dropzone" data-resposta="A"></li>São aqueles propensos a serem usuários frequentes do sistema.
+                                                    </p>
+                                                </div>
+                                                </ul>
+                                            </div>
+
+                                            <div class="modal-footer d-flex justify-content-center">
+                                                <button class="btn" id="btn-voltar" data-bs-target="#exampleModalToggle"
+                                                data-bs-toggle="modal">Voltar</button>
+                                                <button class="btn" id="btn-voltar" data-bs-dismiss="modal"
+                                            aria-label="Close">Concluído</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                    <button class="btn d-flex align-items-center wow animate__bounceInRight" data-wow-delay="0.4s" data-bs-target="#exampleModalToggle"
+                                        id="btn-game" data-bs-toggle="modal"><i class="fa-solid fa-puzzle-piece text-light" id="puzzle"></i>CLIQUE E TESTE SEUS CONHECIMENTOS</i></button>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                                </div>
+                        </div>
+                        </div>
+                    </div>
 
                     </div>
 
